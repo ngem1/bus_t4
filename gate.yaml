@@ -40,9 +40,11 @@ web_server:
 #     inverted: true
 
 external_components:
-  - source: 
-      type: local
-      path: custom_components/bus_t4
+  - source:
+      type: git
+      url: https://github.com/ngem1/bus_t4
+      ref: main
+    components: [bus_t4]  # Make sure this matches the folder structure inside components/
 
 wifi:
  ssid: !secret wifi_ssid
