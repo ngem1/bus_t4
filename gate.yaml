@@ -28,7 +28,7 @@ logger:
 
 ota:
   - platform: esphome
-    password: "ac395ef9c6e2afde679ef6a945dcbb3e"
+    password: ""
 
 # Enable web server (can be disabled)
 web_server:
@@ -53,14 +53,14 @@ wifi:
  # Enable fallback hotspot (captive portal) in case wifi connection fails
  ap:
    ssid: "Gates Fallback Hotspot"
-   password: "iV2EcaCvu3xA"
+   password: ""
 
 captive_portal:
 
 # Enable Home Assistant API
 api:
   encryption:
-    key: "Zlag8s5PhoM1WDCKwMeS9XeuPvyXVZ5uKTPnzoZ6Rks="
+    key: ""
   reboot_timeout: 0s # otherwise reboots when disconnected from hassio  
   services:
 # to send hex commands to the bus T4
